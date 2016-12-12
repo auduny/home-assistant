@@ -841,3 +841,6 @@ zengge==0.2
 
 # homeassistant.components.zeroconf
 zeroconf==0.19.0
+
+# homeassitant.components.device_detection.teslamotors
+https://github.com/gglockner/teslajson/archive/1.0.2.tar.gz#teslajson==1.0.2
