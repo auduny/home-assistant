@@ -29,7 +29,7 @@ class TeslaSensor(TeslaEntity, BinarySensorDevice):
 
         attr = self._attribute
         if attr == "is_parked":
-            if self.vehicle['shift_state']:
+            if (self.vehicle['shift_state'] == "D" or self.vehicle['shift_state'] == "R"):
                 return False
             else:
                 return True
