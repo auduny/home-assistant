@@ -166,5 +166,5 @@ class TeslaEntity(Entity):
     def device_state_attributes(self):
         """Return device specific state attributes."""
         return dict(model='%s/%s' % (
-            self.vehicle['battery_level']
+            self.vehicle['battery_level'],
             self.vehicle['car_version']))
