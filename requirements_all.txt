@@ -1606,3 +1606,6 @@ zm-py==0.1.0
 
 # homeassitant.components.device_detection.teslamotors
 https://github.com/gglockner/teslajson/archive/1.2.0.zip#teslajson==1.2.0
+
+# Gardena stuff
+gardena-smart==0.11b2
